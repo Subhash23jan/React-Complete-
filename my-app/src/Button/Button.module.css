@@ -1,0 +1,11 @@
+.button{
+    background-color: rgba(35, 188, 188, 0.865);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 4px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    text-align: center;
+}

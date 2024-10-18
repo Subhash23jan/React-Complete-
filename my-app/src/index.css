@@ -1,0 +1,49 @@
+.card {
+    border: 1px solid rgb(62, 58, 58);
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px rgba(74, 67, 67, 0.751);
+    padding: 15px;
+    margin: 10px;
+    max-width: 250px;
+    display: flex;                   
+    flex-direction: column;          
+    justify-content: center;         
+    align-items: center;             
+    text-align: center;              
+}
+
+.card .card-image {
+    max-width: 80%;
+    border-radius: 50%;
+    border: 5px solid green;
+    box-shadow: 5px 2px 5px rgb(130, 122, 122);
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: rgb(46, 202, 202);
+}
+
+.card p {
+    font-weight: bolder;
+    font-size: medium;
+    text-decoration: line-through;
+}
+
+.card h1 {
+    font-size: 27px;
+    font-weight: 600;
+    margin: 0;         
+     transform: rotate(-15deg);
+    position: absolute;
+    align-self: center; 
+    margin-bottom: 25%;        
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+   
+
+}
