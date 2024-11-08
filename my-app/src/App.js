@@ -15,15 +15,13 @@ import EventHandler from './EventHandling/onClick.jsx';
 import EventObject from './EventHandling/EventObject.jsx';
 import ClickButton from './EventHandling/Binding.jsx';
 import Component1 from './EventHandling/Binding.jsx';
-
+import Routing from './Render/Router.jsx';
+import ComponentCard from './ReactLifecycle/LifecycleExample.jsx';
+import ProductList from './Pagination/ProductList.jsx';
 function App() {
   return (
     <div>
-      <Student name="Subhash"  isStudent="true" />
-      <Demo items={["Subhash", "Manjunath", "Darshan"]}></Demo>
-      <UserStatus isOnline={true} ></UserStatus>
-      <EventHandler></EventHandler>
-      <Component1></Component1>
+      <ProductList/>
     </div>
   );
 }
